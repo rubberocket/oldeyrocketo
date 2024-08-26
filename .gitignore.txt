@@ -1,0 +1,6 @@
+# dreamweaver-specific stuff
+_notes/*/
+_notes/*
+_notes/
+*.dwt
+*.mno
