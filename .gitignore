@@ -3,3 +3,6 @@ _notes/*/
 _notes/*
 _notes/
 *.mno
+# Thumbs XP generates
+Thumbs.db*
+Thumbs.db:*

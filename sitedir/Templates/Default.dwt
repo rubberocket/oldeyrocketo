@@ -94,10 +94,12 @@ setInterval(doDate, 1000);
         </script>
     </font> </strong></p>
         <strong>What's changed:</strong>
-      <li>- Website looks a lot less basic now... oh who am I kidding it looks boring</li>
-      <li>- Shiny new logo</li>
-      <li>- New 404 page</li>
-      <li>- New button</li>
+      <ul>
+	  <li>Website looks a lot less basic now... oh who am I kidding it looks boring</li>
+      <li>Shiny new logo</li>
+      <li>New 404 page</li>
+      <li>New button</li>
+	  </ul>
 	  </td>
     <!-- end sidebar content -->
     <td rowspan="8" bgcolor="#0066CC"></td>
