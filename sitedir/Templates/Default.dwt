@@ -96,7 +96,7 @@ setInterval(doDate, 1000);
         <strong>What's changed:</strong>
       <ul>
 	  <li>Website looks a lot less basic now... oh who am I kidding it looks boring</li>
-      <li>Shiny new logo</li>
+      <li>Shiny new logo </li>
       <li>New 404 page</li>
       <li>New button</li>
 	  </ul>
