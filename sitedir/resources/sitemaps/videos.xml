@@ -50,7 +50,7 @@ xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 		</video:video>
 	</url>
 	<url>
-		<loc>https://www.rubberocket.com/resources/videos/12principles_2023.mp4</loc>
+		<loc>https://www.rubberocket.com/videos/</loc>
 		<video:video>
 			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/12principles_2023.jpg</video:thumbnail_loc>
 			<video:title>12 Principles Practice (2023)</video:title>
