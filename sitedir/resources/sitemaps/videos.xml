@@ -3,7 +3,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 	<url>
-		<loc>https://www.rubberocket.com/resources/videos/herecomes.mp4</loc>
+		<loc>https://www.rubberocket.com/videos/</loc> <!-- to quote google:
+		<video:content_loc> or <video:player_loc> is the same as <loc> value. 
+		These tags should contain links to the actual video, not the video's 
+		html landing page.
+		-->
+		<!-- it's not html but it doesn't want to accept it anyway. :( -->
 		<video:video>
 			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/herecomes.jpg</video:thumbnail_loc>
 			<video:title>Here Comes The Sun...</video:title>
@@ -19,7 +24,7 @@ xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 		</video:video>
 	</url>
 	<url>
-		<loc>https://www.rubberocket.com/resources/videos/yawc.mp4</loc>
+		<loc>https://www.rubberocket.com/videos/</loc>
 		<video:video>
 			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/yawc.jpg</video:thumbnail_loc>
 			<video:title>Yet another walk cycle</video:title>
@@ -32,7 +37,7 @@ xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 		</video:video>
 	</url>
 	<url>
-		<loc>https://www.rubberocket.com/resources/videos/psycholittleguy.mp4</loc>
+		<loc>https://www.rubberocket.com/videos/</loc>
 		<video:video>
 			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/psycholittleguy.jpg</video:thumbnail_loc>
 			<video:title>Yet another walk cycle</video:title>
@@ -58,7 +63,7 @@ xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 		</video:video>
 	</url>
 	<url>
-		<loc>https://www.rubberocket.com/resources/videos/foot.mp4</loc>
+		<loc>https://www.rubberocket.com/videos/</loc>
 		<video:video>
 			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/foot.jpg</video:thumbnail_loc>
 			<video:title>Little Guy and The Foot</video:title>
@@ -71,7 +76,7 @@ xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 		</video:video>
 	</url>
 	<url>
-		<loc>https://www.rubberocket.com/resources/videos/homemade.mp4</loc>
+		<loc>https://www.rubberocket.com/videos/</loc>
 		<video:video>
 			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/homemade.jpg</video:thumbnail_loc>
 			<video:title>A Bomb Factory</video:title>
@@ -84,7 +89,7 @@ xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 		</video:video>
 	</url>
 	<url>
-		<loc>https://www.rubberocket.com/resources/videos/andreboom.mp4</loc>
+		<loc>https://www.rubberocket.com/videos/</loc>
 		<video:video>
 			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/andreboom.jpg</video:thumbnail_loc>
 			<video:title>Andre Explodes</video:title>
@@ -97,7 +102,7 @@ xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 		</video:video>
 	</url>
 	<url>
-		<loc>https://www.rubberocket.com/resources/videos/nosd_store.mp4</loc>
+		<loc>https://www.rubberocket.com/videos/</loc>
 		<video:video>
 			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/nosd_store.jpg</video:thumbnail_loc>
 			<video:title>Nightmare: Outer Space Demon's Failed Pilot</video:title>
@@ -110,7 +115,7 @@ xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 		</video:video>
 	</url>
 	<url>
-		<loc>https://www.rubberocket.com/resources/videos/fgpt.mp4</loc>
+		<loc>https://www.rubberocket.com/videos/</loc>
 		<video:video>
 			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/fgpt.jpg</video:thumbnail_loc>
 			<video:title>F.G.P.T. Storyboard Test</video:title>
@@ -123,7 +128,7 @@ xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 		</video:video>
 	</url>
 	<url>
-		<loc>https://www.rubberocket.com/resources/videos/goodbadlips.mp4</loc>
+		<loc>https://www.rubberocket.com/videos/</loc>
 		<video:video>
 			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/goodbadlips.jpg</video:thumbnail_loc>
 			<video:title>Lip-sync test</video:title>
@@ -137,7 +142,7 @@ xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 		</video:video>
 	</url>
 	<url>
-		<loc>https://www.rubberocket.com/resources/videos/johnnytest.mp4</loc>
+		<loc>https://www.rubberocket.com/videos/</loc>
 		<video:video>
 			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/johnnytest.jpg</video:thumbnail_loc>
 			<video:title>johnnytest.swf</video:title>
@@ -150,7 +155,7 @@ xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 		</video:video>
 	</url>
 	<url>
-		<loc>https://www.rubberocket.com/resources/videos/sunshine_my_dear_watson.mp4</loc>
+		<loc>https://www.rubberocket.com/videos/</loc>
 		<video:video>
 			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/sunshine_my_dear_watson.jpg</video:thumbnail_loc>
 			<video:title>Sus-shine My Dear Watson</video:title>
@@ -163,7 +168,7 @@ xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 		</video:video>
 	</url>
 	<url>
-		<loc>https://www.rubberocket.com/resources/videos/mayors.mp4</loc>
+		<loc>https://www.rubberocket.com/videos/</loc>
 		<video:video>
 			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/mayors.jpg</video:thumbnail_loc>
 			<video:title>Just An Ordinary Web Series: Mayors</video:title>
@@ -176,7 +181,7 @@ xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 		</video:video>
 	</url>
 	<url>
-		<loc>https://www.rubberocket.com/resources/videos/12principles_2021.mp4</loc>
+		<loc>https://www.rubberocket.com/videos/</loc>
 		<video:video>
 			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/12principles_2021.jpg</video:thumbnail_loc>
 			<video:title>12 Principles Practice (2021)</video:title>
@@ -189,7 +194,7 @@ xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 		</video:video>
 	</url>
 	<url>
-		<loc>https://www.rubberocket.com/resources/videos/mfa.mp4</loc>
+		<loc>https://www.rubberocket.com/videos/</loc>
 		<video:video>
 			<video:thumbnail_loc>https://www.rubberocket.com/resources/images/vidthumb/mfa.jpg</video:thumbnail_loc>
 			<video:title>First Ever Flash Animation!</video:title>
