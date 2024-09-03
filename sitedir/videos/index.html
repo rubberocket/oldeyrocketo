@@ -90,31 +90,23 @@
     <!-- row 7 -->
     <td rowspan="5" bgcolor="#0066CC"></td>
     <!-- sidebar content -->
-    <td rowspan="3" colspan="2" valign="top" bgcolor="#0066CC"><p align="center"><strong><font face="Trebuchet MS, Arial, Helvetica, sans-serif"> 
-	<p><span id="todaysDate">You have a clock, don't you?</span>
+    <td rowspan="3" colspan="2" valign="top" bgcolor="#0066CC"><p align="center">
+	<font face="Trebuchet MS, Arial, Helvetica, sans-serif"> 
+	<strong>
+	<p><span id="todaysDate"><noscript>You have a calendar, don't you?</noscript><script type="text/javascript">
+	 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+	 const d = new Date();
+	 let month = months[d.getMonth()]; 
+	 let day = d.getDay();
+	 let year = d.getFullYear(); 
+	 document.write("It is " + month + " " + day + " " + year + ".");
+	</script></span></p>
+    </strong>
+	</font>
 	<hr>
-                <script type="text/javascript">
-function doDate()
-{
-    var str = "";
-
-    var days = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
-    var months = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
-
-    var now = new Date();
-
-    str += days[now.getDay()] + ", " + now.getDate() + " " + months[now.getMonth()] + " " + now.getFullYear() + " " + now.getHours() +":" + now.getMinutes() + ":" + now.getSeconds() + " UTC";
-    document.getElementById("todaysDate").innerHTML = str;
-}
-
-doDate();
-
-setInterval(doDate, 1000);
-        </script>
-    </font> </strong></p>
         <strong>What's changed:</strong>
       <ul>
-	  <li>art page back up</li>
+	  <li>Do you honestly have to care</li>
 	  </ul>
     </td>
     <!-- end sidebar content -->
