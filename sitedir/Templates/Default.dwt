@@ -94,7 +94,7 @@
     <td rowspan="3" colspan="2" valign="top" bgcolor="#0066CC"><p align="center">
 	<font face="Trebuchet MS, Arial, Helvetica, sans-serif"> 
 	<strong>
-	<p><span id="todaysDate"><noscript>You have a calendar, don't you?</noscript><script type="text/javascript">
+	<p><span id="todaysDate"><noscript>You have a calendar, don't you? Use that.<br>Also, I must warn you that this site uses JavaScript, so things will be broken.</noscript><script type="text/javascript">
 	 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 	 const d = new Date();
 	 let month = months[d.getMonth()]; 
@@ -125,7 +125,8 @@
   </tr>
   <tr>
     <!-- row 9 -->
-    <td colspan="4" rowspan="4" background="/resources/images/siteUI/sitelayout_r9_c7.gif" bgcolor="#FFFFFF"></td>
+    <td colspan="3" rowspan="4" bgcolor="#FFFFFF"></td>
+	<td colspan="1" rowspan="4" background="/resources/images/siteUI/sitelayout_r9_c7.gif" bgcolor="#FFFFFF"></td>
     <td><img src="/resources/images/siteUI/spacer.gif" width="1" height="1" border="0" alt=""></td>
   </tr>
   <tr>
